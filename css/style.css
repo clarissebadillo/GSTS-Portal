@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: grey;
+}
+
+.top-nav {
+    position: relative;
+    height: 50px;
+    color: white;
+    padding: 5px 0px 10px;
+    background-color: #2C286E;
+}
+
+.nav-icon {
+    height: 35px;
+    width: 35px;
+    padding: 10px 0px 0px 50px;
+}
+
+table {
+    padding-left: 10px;
+    display: inline-block;
+}
+
+th {
+    text-align: left;
+    font-size: 13px;
+}
+
+td {
+    font-size: 10px;
+    padding-top: 5px;
+}
+
+.login-portal {
+    float: right;
+}
+
+.login-portal ul {
+    padding: 0 50px 0  0;
+    height: 30px;
+}
+
+.login-portal ul li {
+    display: inline-block;
+    list-style: none;
+    line-height: 30px;
+}
+
+.login-portal ul li:nth-child(1) {
+    border-right: 2px solid lightgrey;
+    line-height: 20px;
+}
+
+.login-portal ul li a {
+    color: lightgray;
+    text-decoration: none;
+    margin: 0 15px;
+    text-align: center;
+    padding-right: 0px;
+    transition: 0.2s;
+}
+
+.login-portal ul li a:hover {
+    color: white;
+}
+
+
+/* MAIN NAVIGATION */
+.main-nav {
+    position: absolute;
+    top: 65px;
+    left: 0;
+    width: 100%;
+    padding: 0 100px;
+    background: white;
+    box-sizing: border-box;
+}
+
+
+.main-nav img {
+    width: 70px;
+    height: 70px;
+    float: left;
+    margin-top: 5px;
+}
+
+.main-nav p {
+    float: left;
+    margin-top: 20px;
+    margin-left: 10px;
+    color: #2C286E;
+}
+
+nav {
+    float: right;
+    font-weight: bold;
+    font-family: 'roboto', sans-serif;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    list-style-type: none;
+    position: relative;
+}
+
+.fas {
+    position: absolute;
+    line-height: 80px;
+    color: #2C286E;
+    right: 5px;
+}
+
+nav ul li ul {
+    position: absolute;
+    left: 0;
+    background-color: white;
+    display: none;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+nav ul li ul li {
+    display: block;
+    width: 200px;
+}
+
+nav ul li a {
+    height: 80px;
+    line-height: 80px;
+    padding: 0 20px;
+    color: #2C286E;
+    text-decoration: none;
+    display: block;
+}
+
+nav ul li a:hover, nav ul li a.active {
+    color: white;
+    background: #2C286E;
+}
+
+
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+/* MAIN CONTENT */
+main {
+    margin-top: 800px;
+}
