@@ -94,6 +94,7 @@ td {
     color: #2C286E;
 }
 
+
 nav {
     float: right;
     font-weight: bold;
@@ -144,16 +145,16 @@ nav ul li a {
 }
 
 nav ul li a:after {    
+    position: absolute;
     background: none repeat scroll 0 0 transparent;
     bottom: 0;
+    width: 0;
     content: "";
     display: block;
     height: 3px;
     left: 50%;
-    position: absolute;
     background: #2C286E;
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
-    width: 0;
 }
 
 nav ul li a:hover:after { 
@@ -163,6 +164,11 @@ nav ul li a:hover:after {
 
 nav ul li a.active {
     color: black;
+}
+
+nav ul li ul li a {
+    height: 50px;
+    line-height: 50px;
 }
 
 

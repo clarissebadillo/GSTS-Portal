@@ -10,7 +10,8 @@
     background-size: cover;
 }
 
-.about-page {
+/* ABOUT SECTION*/
+.about-section {
     display: flex;
     padding: 50px 0 60px;
     background-color: #fff;
@@ -21,9 +22,8 @@
 }
 
 .about-container h2 {
-    font-family: 'BebasNeueRegular';
+    font-family: 'roboto', sans-serif;
     font-size: 50px;
-    font-weight: lighter;
     line-height: 60px;
     margin-bottom: 15px;
     color: #2C286E;
@@ -40,7 +40,6 @@
     padding: 30px 0 20px 0;
 }
 
-
 .about-container a {
     color: white;
     background-color: #2C286E;
@@ -49,8 +48,128 @@
     text-decoration: none;
 }
 
+.about-container a:hover {
+    border: 2px solid #2C286E;
+    background: #fff;
+    color: #2c286e;
+}
 
 .about-container img {
     width: 300px;
     height: 300px;
+}
+
+
+/* PROGRAMS SECTION */
+.programs-section {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    background-color: #E1DDDD;
+}
+
+.programs-section h1 {
+    color: #2C286E;
+    padding: 60px 0 40px 0;
+    font-family: 'roboto', sans-serif;
+    text-transform: uppercase;
+}
+
+.programs-container {
+    display: inline-block;
+    border: 2px solid red;
+    border-radius: 20px;
+    margin: 0 20px;
+    height: 450px;
+    width: 350px;
+    background-color: #fff;
+}
+
+
+
+/* ADMISSION SECTION */
+.admission-section {
+    background-color: #2C286E;
+    font-family: 'roboto', sans-serif;
+    width: 100%;
+    height: 50vh;
+    text-align: center;
+    color: white
+}
+
+.admission-section h1 {
+    margin: 0;
+    padding-top: 55px;
+    text-align: center;
+    color: white;
+}
+
+.admission-section p {
+    padding-bottom: 40px;
+}
+
+.admission-section a {
+    color: white;
+    border: 2px solid white;
+    padding: 10px 35px;
+    text-decoration: none;
+}
+
+
+/* CALENDAR SECTION */
+.calendar-section {
+    width: 100%;
+    height: 50vh;
+    font-family: 'roboto', sans-serif;
+    background-color: #fff;
+}
+
+.calendar-section h4 {
+    text-align: center;
+    font-size: 30px;
+    padding: 50px 0;
+    color: #2C286E;
+}
+
+.calendar-section ul {
+    display: inline-block;
+    margin: 0 20px;
+    padding: 0;
+    width: 20%;
+    height: 90px;
+    border-radius: 10px;
+    background-color: #E1DDDD;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.calendar-section ul li {
+    display: flex;
+    list-style: none;
+}
+
+.calendar-section span {
+    margin: 10px 10px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px 20px;
+    line-height: 25px;
+    color: #fff;
+    background-color: #2C286E;
+}
+
+.calendar-section p {
+    padding: 10px;
+    font-size: 14px;
+}
+
+.calendar-section a {
+    float: right;
+    font-size: 20px;
+    padding: 20px 40px;
+    border-left: 3px solid #2C286E;
+    text-decoration: none;
+}
+
+.calendar-section a:hover {
+    text-decoration: underline;
 }
