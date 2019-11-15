@@ -1,3 +1,7 @@
+htmml {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -31,7 +35,7 @@ th {
 
 td {
     font-size: 10px;
-    padding-top: 5px;
+    padding-top: 0;
 }
 
 .login-portal {
@@ -70,13 +74,15 @@ td {
 
 /* MAIN NAVIGATION */
 .main-nav {
+    border-bottom: 3px solid #2C286E;
     position: absolute;
     top: 65px;
     left: 0;
     width: 100%;
     padding: 0 100px;
-    background: white;
+    background-color: white;
     box-sizing: border-box;
+    z-index: 9999;
 }
 
 
@@ -122,6 +128,9 @@ nav ul li {
 nav ul li ul {
     position: absolute;
     left: 0;
+    border-right: 3px solid #2C286E;
+    border-left: 3px solid #2C286E;
+    border-bottom: 3px solid #2C286E;
     background-color: white;
     display: none;
 }
@@ -135,7 +144,7 @@ nav ul li ul li {
     width: 200px;
 }
 
-nav ul li a {
+nav ul li a{
     height: 80px;
     line-height: 80px;
     padding: 0 20px;
@@ -144,29 +153,17 @@ nav ul li a {
     display: block;
 }
 
-nav ul li a:after {    
-    position: absolute;
-    background: none repeat scroll 0 0 transparent;
-    bottom: 0;
-    width: 0;
-    content: "";
-    display: block;
-    height: 3px;
-    left: 50%;
-    background: #2C286E;
-    transition: width 0.3s ease 0s, left 0.3s ease 0s;
-}
-
-nav ul li a:hover:after { 
-    width: 100%; 
-    left: 0; 
+nav ul li a:hover,
+nav ul li a.active {
+    background-color: lightgrey;
 }
 
 nav ul li a.active {
     color: black;
 }
 
-nav ul li ul li a {
+
+nav ul li ul li a{
     height: 50px;
     line-height: 50px;
 }
