@@ -10,6 +10,7 @@ main img {
     padding: 0 100px;
 }
 
+
 .main-content {
     display: inline-block;
 }
@@ -50,7 +51,7 @@ main img {
 
 section {
     padding-left: 35%;
-    padding-bottom: 10%;
+    padding-bottom: 15%;
 
 }
 .inner-main {
@@ -70,7 +71,8 @@ section {
 }
 
 .inner-main p {
-    margin-top: 20px;
+    margin-top: 25px;
+    line-height: 25px;
 }
 
 .inner-main ul li {
