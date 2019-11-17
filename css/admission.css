@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css?family=Hind:300,400');
+
+*, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+main {
+    margin-top: 100px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    padding: 0 100px
+}
+
+.container {
+    display: inline-block;
+}
+
+h1 {
+    text-align: center;
+    color: #2C286E;
+    font-family: 'roboto', sans-serif;
+    padding-top: 60px;
+}
+
+.accordion {
+    float: right;
+    color: #4d5974;
+    width: 48rem;
+    color: #4d5974;
+    margin: 8% 0;
+    padding-left: 8%;
+}
+
+.accordion a {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    padding: 1rem 3rem 1rem 1rem;
+    color: #7288a2;
+    font-size: 1.15rem;
+    font-weight: 400;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.accordion a:hover,
+.accordion a:hover::after {
+    font-weight: bold;
+    cursor: pointer;
+    color: #2C286E;
+}
+
+.accordion a:hover::after {
+    border: 1px solid #2C286E;
+}
+
+.accordion a.active {
+    font-weight: bold;
+    color: #2C286E;
+    border-bottom: 1px solid #2C286E;
+}
+
+.accordion a::after {
+    font-family: 'Font Awesome 5 Pro';
+    content: '\f067';
+    font-weight: 900;
+    position: absolute;
+    float: right;
+    right: 1rem;
+    font-size: 1rem;
+    color: #7288a2;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 1px solid #7288a2;
+    text-align: center;
+}
+
+.accordion a.active::after {
+    font-family: 'Font Awesome 5 Pro';
+    content: '\f068';
+    color: #2C286E;
+    border: 1px solid #2C286E;
+}
+
+.accordion .content {
+    opacity: 0;
+    padding: 0 1rem;
+    max-height: 0;
+    border-bottom: 1px solid #e5e5e5;
+    overflow: hidden;
+    clear: both;
+    -webkit-transition: all 0.2s ease 0.15s;
+    -o-transition: all 0.2s ease 0.15s;
+    transition: all 0.2s ease 0.15s;
+    font-family: 'roboto', sans-serif;
+}
+
+.accordion .content p {
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 22px;
+}
+
+.accordion .content li {
+    line-height: 22px;
+}
+
+.accordion .content.active {
+    opacity: 1;
+    padding: 1rem;
+    max-height: 100%;
+    -webkit-transition: all 0.35s ease 0.15s;
+    -o-transition: all 0.35s ease 0.15s;
+    transition: all 0.35s ease 0.15s;
+} 
+
+
+
+.sidebar {
+    float: left;
+    margin: 8% 0 10% 0;
+    width: 25%;
+    background-color: #dfe6e9;
+}
+
+.sidebar h4 {
+    padding-top: 30px;
+    padding-left: 40px;
+    font-size: 20px;
+}
+
+.sidebar ul {
+    padding: 0px 40px 60px 40px;
+}
+.sidebar ul li{
+    padding: 15px 0;
+    list-style: none;
+    border-bottom: 1px solid gray;
+}
+.sidebar ul li a {
+    color: black;
+    text-decoration: none;
+}
+.sidebar ul li a.active {
+    color: #2C286E;
+    font-weight: bold;
+}
+.sidebar ul li a:hover {
+    color: #2C286E;
+    font-weight: bold;
+}
