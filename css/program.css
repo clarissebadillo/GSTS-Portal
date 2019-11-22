@@ -30,9 +30,9 @@ h1 {
     float: right;
     color: #4d5974;
     width: 48rem;
-    color: #4d5974;
     margin: 8% 0;
     padding-left: 8%;
+    padding-bottom: 40%;
 }
 
 .accordion a {
@@ -129,11 +129,16 @@ h1 {
     transition: all 0.35s ease 0.15s;
 } 
 
+.accordion .content span {
+    color: #2C286E;
+    font-weight: bold;
+}
+
 
 
 .sidebar {
     float: left;
-    margin: 8% 0 10% 0;
+    margin-top: 8%;
     width: 25%;
     background-color: #dfe6e9;
 }
