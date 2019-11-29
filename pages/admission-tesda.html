@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>GSTS / About GSTS</title>
+    <title>GSTS / Admission</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon.png">
     <link rel="stylesheet" href="../css/all.css">
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/home.css">
-    <link rel="stylesheet" href="../css/about.css">
+    <link rel="stylesheet" href="../css/admission.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap" rel="stylesheet">
-
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 </head>
 <body>
 
@@ -48,7 +48,7 @@
             <p>Global School for <br> Technological Studies, Inc.</p>
             <nav>
             <ul>
-                <li><a class="nav-menu" href="../index.html">HOME</a></li>
+                <li><a class="nav-menu" href="../index.html" class="active">HOME</a></li>
                 <li class="sub-menu"><a class="nav-menu" href="#">ABOUT<i class="fas fa-caret-down fa-1x"></i></a>
                     <ul>
                         <li><a href="about-gsts.html">About GSTS</a></li>
@@ -61,7 +61,7 @@
                 <li class="sub-menu"><a class="nav-menu" href="#">PROGRAMS<i class="fas fa-caret-down fa-1x"></i></a>
                     <ul>
                         <li><a href="program-college.html">College</a></li>
-                        <li><a href="prgram-shs.html">Senior Highschool</a></li>
+                        <li><a href="program-shs.html">Senior Highschool</a></li>
                         <li><a href="program-tesda.html">TESDA</a></li>
                     </ul>
                 </li>
@@ -75,45 +75,89 @@
                 <li><a class="nav-menu" href="#contact-us">CONTACT US</a></li>
             </ul>
             <div class="menu-toggle"></div>
-            </nav>
+        </nav>
         </div>
     </header>
 
     <main>
-        <img src="../images/about-poster.jpg" alt="students pic">
         <div class="wrapper">
-            <div class="main-content">
-                <section>
-                    <div class="inner-main">
-                        <h1>ABOUT OUR SCHOOL</h1>
-                        <div class="line"></div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus esse fugiat quo provident tenetur autem quisquam corrupti, sequi, corporis accusantium atque ullam at qui modi dolor neque repudiandae explicabo quos?</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quibusdam blanditiis nihil, similique quas natus corporis accusamus ex dolorum facilis mollitia incidunt pariatur amet temporibus, atque nam quae magni dignissimos.</p>
-
-                        <h3>Goals</h3>
-                        <p>To attain leadership in Academic degree and Technical Vocational Education and Training (TVET) market in term of student's population, state-of-the art facilities and faculty competencies. By then, GSTS will have contributed a significant share in the local labor market that has national and international certificates. Proportionate measure in resource generation, capacity building and institutional partners shall be guided in that direcion.</p>
-
-                        <h3>Objectives</h3>
-                        <ul>
-                            <li>Provide vision and leadership in the evaluation and implementation of advance technologies;</li>
-                            <li>Operate multi-level technical learning institution integrated with ethical values to meet global excellence competitiveness; and</li>
-                            <li>Ensure better learning environment;</li>
-                            <li>Continously upgrade and improve our facilities based on the current technology;</li>
-                            <li>Provide usable and easy access to infromation srvices;</li>
-                            <li>Develop workers equipped with competitive employable skills for middle level manpower;</li>
-                            <li>Serve as training venue for skills development based on the needs of the country</li>
-                        </ul>
+            <h1>APPLICATION REQUIREMENTS FOR TESDA PROGRAMS</h1>
+            
+            <div class="container">
+                <div class="accordion">
+                    <div class="accordion-item">
+                        <a>Requirements fo PESFA Scholar</a>
+                    <div class="content">
+                        <ol>
+                            <li>Report Card</li>
+                            <li>High School Diploma</li>
+                            <li>NSO/PSA Live Birth Certificate</li>
+                            <li>Certificate of Indigency</li>
+                            <li>4pcs 1x1 ID (white backgroundnwith collar)</li>
+                            <li>4pcs Passport size ID (white background with colar)</li>
+                            <li>1px long plastic envelop</li>
+                            <li>1px long brown envelop</li>
+                        </ol>
                     </div>
-                </section>
+                    </div>
+                    <div class="accordion-item">
+                        <a>Requirements for TWSP Scholar</a>
+                    <div class="content">
+                        <ol>
+                            <li>TOR/Report Card</li>
+                            <li>High School Diploma</li>
+                            <li>NSO/PSA Live Birth Certificate</li>
+                            <li>Certificate of Indigency</li>
+                            <li>4pcs 1x1 ID (white background with collar)</li>
+                            <li>4pcs Passport size ID (white background with colar)</li>
+                            <li>1px long plastic envelop</li>
+                            <li>1px long brown envelop</li>
+                        </ol>
+                    </div>
+                    </div>
+                    <div class="accordion-item">
+                        <a>Requirements for Regular Assesment</a>
+                    <div class="content">
+                        <ol>
+                            <li>1 photocopy of NSO/PSA Live Birth Certificate</li>
+                            <li>1 photocopy of Transcript of Records (TOR)</li>
+                            <li>4pcs 1x1 ID picture (white background with colar</li>
+                            <li>4pcs Passport size ID (white background with colar)</li>
+                            <li>1px long plastic envelop</li>
+                            <li>1px long brown envelop</li>
+                        </ol>
+                        <table>
+                            <tr>
+                                <th>Qualification's</th>
+                                <th>Assesment Fee</th>
+                                <th>Training Fee</th>
+                            </tr>
+                            <tr>
+                                <td>BPP NC II</td>
+                                <td>400</td>
+                                <td>3,500</td>
+                            </tr>
+                            <tr>
+                                <td>EIM NC II</td>
+                                <td>1,415</td>
+                                <td>5,000</td>
+                            </tr>
+                            <tr>
+                                <td>CSS NC II</td>
+                                <td>715</td>
+                                <td>7,000</td>
+                            </tr>
+                        </table>
+                    </div>
+                    </div>
+                </div> 
                 <aside class="sidebar">
-                    <h4>About Us</h4>
+                    <h4>Admission Info</h4>
                     <ul>
-                        <li><a class="active" href="about-gsts.html">About GSTS</a></li>
-                        <li><a href="about-mission&vision.html">Vision and Mission</a></li>
-                        <li><a href="about-gstshymn.html">GSTS Hymn</a></li>
-                        <li><a href="about-news.html">News</a></li>
-                        <li><a href="about-gallery.html">Gallery</a></li>
-                    </ul>                
+                        <li><a href="admission-college.html">For College</a></li>
+                        <li><a href="admission-shs.html">For Senior High School</a></li>
+                        <li><a href="admission-tesda.html" class="active">For TESDA</a></li>
+                    </ul>
                 </aside>
             </div>
         </div>
@@ -166,7 +210,7 @@
             </div>
         </div>
     </footer> 
-    
+
     <script src="../js/main.js"></script>
 </body>
 </html>
